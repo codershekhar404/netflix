@@ -1,0 +1,464 @@
+@media (min-width: 1536px) and (max-width: 1779px) {
+  /* For Full Hd Monitor */
+  header {
+    width: 30rem;
+  }
+
+  nav {
+    margin-left: 3.6rem;
+  }
+
+  .menu h4 {
+    font-size: 1.8rem;
+  }
+
+  .menu-li {
+    font-size: 1.6rem;
+  }
+
+  main {
+    width: calc(100vw - 30rem);
+  }
+
+  .head-sec {
+    padding: 3rem 1rem 3rem 8rem;
+  }
+
+  .container {
+    width: 90%;
+    padding: 5rem;
+  }
+
+  .hero-img {
+    gap: 2rem;
+  }
+
+  .content {
+    padding: 0 6rem;
+  }
+
+  .card-container img {
+    width: 25rem;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1535px) {
+  /* For hd Monitor */
+  header {
+    width: 26rem;
+  }
+
+  nav {
+    margin-left: 3.6rem;
+  }
+
+  .menu h4 {
+    font-size: 1.6rem;
+  }
+
+  .menu-li {
+    font-size: 1.4rem;
+  }
+
+  main {
+    width: calc(100vw - 35rem);
+  }
+
+  .head-sec {
+    padding: 3rem 1rem 3rem 8rem;
+  }
+
+  .container {
+    padding: 0;
+    padding-bottom: 4rem;
+  }
+
+  .hero-img {
+    gap: 1.8rem;
+  }
+
+  .card-container img {
+    width: 21.5rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+  /* For laptops Monitor */
+  header {
+    width: 24rem;
+  }
+
+  nav {
+    margin-left: 3.6rem;
+  }
+
+  .menu h4 {
+    font-size: 1.6rem;
+  }
+
+  .menu-li {
+    font-size: 1.4rem;
+  }
+
+  .popcorn-container {
+    width: 15rem;
+  }
+
+  .popcorn-container figure img {
+    width: 4rem;
+  }
+
+  .popcorn h2 {
+    font-size: 1.2rem;
+  }
+
+  .popcorn button {
+    padding: 0.8rem 2.2rem;
+  }
+  main {
+    width: calc(100vw - 24rem);
+  }
+
+  .head-sec {
+    padding: 0;
+    padding-left: 1rem;
+  }
+
+  .container {
+    width: 95%;
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+
+  .hero {
+    height: 40rem;
+  }
+
+  .hero-text h2 {
+    font-size: 4.2rem;
+  }
+
+  .hero-img {
+    gap: 1.2rem;
+  }
+
+  .hero-img img {
+    width: 10rem;
+  }
+
+  .content {
+    padding: 0 2rem;
+  }
+  .card-container img {
+    width: 16rem;
+  }
+
+  .friends-container {
+    width: 8rem;
+  }
+  .friends img {
+    width: 4.6rem;
+  }
+
+  .friends img:first-child {
+    width: 5.2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* For Tablet */
+
+  header {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: rgba(255, 255, 255, 1);
+    width: 30rem;
+    height: 100%;
+    z-index: 10;
+    transition: all 0.4s ease;
+  }
+  main {
+    width: 100vw;
+  }
+
+  .head-sec {
+    justify-content: space-evenly;
+    padding: 0 2rem;
+  }
+
+  .right-menu {
+    padding: 0;
+    width: 25rem;
+  }
+
+  .menu_btn i {
+    display: block;
+    cursor: pointer;
+    width: 3rem;
+  }
+
+  #click {
+    cursor: pointer;
+  }
+
+  #click:checked ~ .menu_btn i:before {
+    content: "\f00d";
+  }
+
+  .container {
+    padding: 2rem;
+  }
+
+  .hero {
+    height: 38rem;
+    padding: 1rem;
+  }
+
+  .hero-img {
+    gap: 0.5rem;
+  }
+  .hero-img img {
+    width: 10rem;
+  }
+
+  .content {
+    padding: 0 3rem;
+  }
+  .card-container {
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .friends-container {
+    display: none;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 767px) {
+  /* For Mobile and Small Tab */
+  header {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: rgba(255, 255, 255, 1);
+    width: 30rem;
+    height: 100%;
+    z-index: 10;
+    transition: all 0.4s ease;
+  }
+  main {
+    width: 100vw;
+  }
+
+  .head-sec {
+    justify-content: space-evenly;
+    padding: 0 2rem;
+  }
+
+  .right-menu {
+    display: none;
+  }
+
+  .search input[type="search"] {
+    width: 30rem;
+  }
+
+  .menu_btn i {
+    display: block;
+    cursor: pointer;
+    width: 3rem;
+  }
+
+  #click {
+    cursor: pointer;
+  }
+
+  #click:checked ~ .menu_btn i:before {
+    content: "\f00d";
+  }
+
+  .container {
+    padding: 2rem;
+  }
+
+  .hero {
+    height: 32rem;
+    padding: 1rem;
+  }
+
+  .hero-text h2 {
+    font-size: 3.2rem;
+  }
+  .hero-img img {
+    display: none;
+  }
+
+  .content {
+    padding: 0 3rem;
+  }
+  .card-container {
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .card-container img {
+    width: 25rem;
+  }
+  .friends-container {
+    display: none;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 579px) {
+  /* For Normal Mobile */
+  header {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: rgba(255, 255, 255, 1);
+    width: 30rem;
+    height: 100%;
+    z-index: 10;
+    transition: all 0.4s ease;
+  }
+  main {
+    width: 100vw;
+  }
+
+  .head-sec {
+    justify-content: space-evenly;
+    padding: 0 2rem;
+  }
+
+  .right-menu {
+    display: none;
+  }
+
+  .search input[type="search"] {
+    width: 25rem;
+  }
+
+  .menu_btn i {
+    display: block;
+    cursor: pointer;
+    width: 3rem;
+  }
+
+  #click {
+    cursor: pointer;
+  }
+
+  #click:checked ~ .menu_btn i:before {
+    content: "\f00d";
+  }
+
+  .container {
+    padding: 2rem;
+  }
+
+  .hero {
+    height: 28rem;
+    padding: 0.5rem;
+  }
+
+  .hero-text h2 {
+    font-size: 3.2rem;
+  }
+  .hero-img img {
+    display: none;
+  }
+
+  .content {
+    padding: 0 3rem;
+  }
+  .card-container {
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .card-container img {
+    width: 20rem;
+  }
+  .friends-container {
+    display: none;
+  }
+}
+
+@media (max-width: 479px) {
+  /* For Normal Mobile */
+  header {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: rgba(255, 255, 255, 1);
+    width: 28rem;
+    height: 100%;
+    z-index: 10;
+    transition: all 0.4s ease;
+  }
+  main {
+    width: 100vw;
+  }
+
+  .head-sec {
+    justify-content: space-evenly;
+    padding: 0 2rem;
+  }
+
+  .right-menu {
+    display: none;
+  }
+
+  .search input[type="search"] {
+    width: 22rem;
+  }
+
+  .menu_btn i {
+    display: block;
+    cursor: pointer;
+    width: 3rem;
+  }
+
+  #click {
+    cursor: pointer;
+  }
+
+  #click:checked ~ .menu_btn i:before {
+    content: "\f00d";
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  .hero {
+    height: 26rem;
+    padding: 0.5rem;
+  }
+
+  .hero-text h2 {
+    font-size: 2.8rem;
+  }
+  .hero-img img {
+    display: none;
+  }
+
+  .content {
+    padding: 0 1rem;
+  }
+  .card-container {
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .card-container img {
+    width: 16rem;
+  }
+  .friends-container {
+    display: none;
+  }
+}
