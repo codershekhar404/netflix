@@ -218,8 +218,13 @@ main {
 #click{
   display: none;
 }
+
 .menu_btn{
   display: none;
+}
+
+.menu_btn{
+  display:none;
 }
 /* head sec end */
 
